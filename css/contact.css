@@ -1,0 +1,54 @@
+.container-contact{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+input[type="text-1"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+}
+fieldset{
+    background-color: #ffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+.main_heading{
+    text-align: center;
+
+}
+input[type="submit"]{
+    background-color: #4daea1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    /* cursor: grab; */
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover{
+background-color: #4caf84;
+}
+.about{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.map{
+    margin-top: 20px;
+}
+.map-text{
+    font-weight: 600;
+    margin-top: 10px;
+}
